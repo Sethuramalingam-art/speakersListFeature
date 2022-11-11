@@ -6,9 +6,9 @@ Position : Senior Frontend Developer
 
 Application Details: 
 
-# circunomics gmbh-FrontEndAssignment
+# circunomics gmbh - Assignment
 
-SpeakerListFeature - Assignment
+SpeakerListFeature
 
 This project was generated with Angular CLI version 14.2.9.
 
