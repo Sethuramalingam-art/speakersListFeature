@@ -11,6 +11,7 @@ import { Speaker } from '../store/speakers';
   encapsulation: ViewEncapsulation.Emulated,
 })
 export class DetailsComponent implements OnInit {
+  // Get updated state value from store selector
   readonly speakers$ = this.store.pipe(select(selectSpeakers));
 
   public speakerDetailList: Array<Speaker> = [];

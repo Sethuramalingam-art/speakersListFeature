@@ -14,6 +14,7 @@ export class SpeakersEffect {
     private store: Store
   ) {}
 
+  // Load speaker list to state value in the store
   loadAllSpeakers$ = createEffect(() =>
     this.actions$.pipe(
       ofType(invokeSpeakersAPI),
