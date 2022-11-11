@@ -15,7 +15,12 @@
           </tr>
         </thead>
           <tbody>
-          <tr class="tr_entites" *ngFor="let speaker of speakersList ; let i = index" (click)="onClickEvent(speaker)">
+          <tr class="tr_entites" *ngFor="let speaker of speakersList | customFilter: name : email : id | paginate
+          : {
+              itemsPerPage: tableSize,
+              currentPage: page,
+              totalItems: count
+            }; let i = index" (click)="onClickEvent(speaker)">
             <th scope="row" id="th_speakerId">{{speaker.id.name}}</th>
             <td><span>{{speaker.name['first']}} {{speaker.name['last']}}</span></td>
             <td>{{speaker.email}}</td>
