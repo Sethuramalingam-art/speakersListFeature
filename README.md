@@ -1,4 +1,4 @@
-Name : Sethuramalingam Duraismay
+Name : Sethuramalingam Duraisamy
 
 Email: sethuramalingam.duraisamy140891@gmail.com
 
@@ -43,7 +43,11 @@ Task completed:
 
 6. Unit testing for components, services, reducer, selector and custom pipes(total 16 test cases)
 
+Speakers List Page
+![speakers list page](https://user-images.githubusercontent.com/59419619/201368795-a4f8c7b3-f116-4f1f-9cae-4f83fed2e327.png)
 
+Details Page
+![speaker detail page](https://user-images.githubusercontent.com/59419619/201368946-3fce50c2-d003-4582-abae-440825b96f83.png)
 
 
 
