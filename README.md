@@ -41,7 +41,7 @@ Task completed:
 
 5. Handled performance for component using viewencapsualtion method 
 
-6. Unit testing for components, services, reducer, selector and custom pipes
+6. Unit testing for components, services, reducer, selector and custom pipes(total 16 test cases)
 
 
 
