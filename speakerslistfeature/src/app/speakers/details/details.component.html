@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col-12">
+    <h3>Speakers Details</h3>
+    </div>
+    <div class="col-12">
+        <table class="table table-center">
+            <tr id="div_fullName">
+                <td>FullName: </td>
+                <td><span>{{speakerDetailList[0].name['first']}}{{speakerDetailList[0].name['last']}}</span></td>
+            </tr>
+            <tr>
+                <td>Gender: </td>
+                <td><span>{{speakerDetailList[0].gender}}</span></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><span>{{speakerDetailList[0].email}}</span></td>
+            </tr>
+            <tr>
+                <td>Phone: </td>
+                <td><span>{{speakerDetailList[0].phone}}</span></td>
+            </tr>
+            <tr>
+                <td>Location: </td>
+                <td><span>{{speakerDetailList[0].location['city']}}</span></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="col-12">
+    <a [routerLink]="['/']">Back to List Page </a>
+</div>
