@@ -31,9 +31,9 @@ Run ng test to execute the unit tests via Karma.
 
 Task completed:
 
-1. Listing and details the speakers list page using bootstrap table with simple and good design
+1. Listing and details speakers page using bootstrap table with simple and good design
 
-2. NgRx concepts with unit testing Jasmine karma library for store speakers list and selecting the list from store.
+2. NgRx concepts with Jasmine karma unit testing.
 
 3. NgxPagination for speakers list page paginations
 
@@ -41,7 +41,7 @@ Task completed:
 
 5. Handled performance for component using viewencapsualtion method 
 
-6. Unit testing for components, services and reducer and selector and custom pipes
+6. Unit testing for components, services, reducer, selector and custom pipes
 
 
 
